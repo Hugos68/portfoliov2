@@ -1,5 +1,5 @@
 
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] items-center bg-[url('green-wave-bottom.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('green-wave-bottom.svg')] bg-cover bg-center">
     <h1 id="hugokorte" class="text-[clamp(2rem,16vw,4rem)] leading-[3] text-center">
         Hugo Korte
     </h1>
