@@ -14,13 +14,17 @@
 
 </section>  
 <section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('blue-wave-top.svg')] bg-cover bg-center">
-
+    <h2 id="work" class="text-[clamp(2rem,16vw,4rem)] leading-loose">
+        Work
+    </h2>
 </section>
 <section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('pink-wave-bottom.svg')] bg-cover bg-center">
 
 </section>
 <section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('pink-wave-top.svg')] bg-cover bg-center">
-    
+    <h2 id="compentences" class="text-[clamp(2rem,16vw,4rem)] leading-loose">
+        Competences
+    </h2>
 </section>
 <section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('green-wave-footer.svg')] bg-cover bg-center">
     
