@@ -1,3 +1,3 @@
-<main class="mt-[10vh]">
+<main class="p-0 scroll-py-20">
     <slot />
 </main>

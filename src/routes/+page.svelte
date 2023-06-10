@@ -1,7 +1,27 @@
-<h1
-	class="text-[clamp(2rem,16vw,10rem)] leading-[clamp(2rem,15vw,10rem)] text-center relative before:content-['Hugo_Korte'] before:absolute before:bottom-[-125%] 
-    before:scale-y-[-1] before:bg-clip-text before:text-transparent before:bg-gradient-to-b before:from-black before:via-black/10 before:to-black/0
-    "
->
-	Hugo Korte
-</h1>
+
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] items-center bg-[url('green-wave-bottom.svg')] bg-cover bg-center">
+    <h1 id="hugokorte" class="text-[clamp(2rem,16vw,4rem)] leading-loose text-center mt-[]">
+        Hugo Korte
+    </h1>
+    <p class="text-[clamp(1.5rem,8vw,2rem)] text-dark-token text-center">A dedicated software engineer</p>
+</section>
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('green-wave-top.svg')] bg-cover bg-center">
+    <h2 id="about" class="text-[clamp(2rem,16vw,4rem)] leading-loose">
+        About
+    </h2>
+</section>
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('blue-wave-bottom.svg')] bg-cover bg-center">
+
+</section>  
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('blue-wave-top.svg')] bg-cover bg-center">
+
+</section>
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('pink-wave-bottom.svg')] bg-cover bg-center">
+
+</section>
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('pink-wave-top.svg')] bg-cover bg-center">
+    
+</section>
+<section class="w-screen h-screen pt-[25vh] px-[1vw] lg:px-[10vw] bg-[url('green-wave-footer.svg')] bg-cover bg-center">
+    
+</section>
