@@ -10,7 +10,7 @@
         imageUrl: string;
         technologies: string[]
     }
-
+    
     const projects: Project[] = [
         {
             name: 'Subjective',
@@ -18,6 +18,14 @@
             repositoryUrl: 'https://github.com/SubjectiveTeam/subjective-website',
             websiteUrl: 'https://subjective-website.vercel.app/',
             imageUrl: 'https://cdn.discordapp.com/attachments/465110736872669195/1117202771645567036/image.png',
+            technologies: ['SvelteKit', 'Skeleton', 'Tailwind', 'Supabase']
+        },
+        {
+            name: 'Portfolio',
+            description: 'A portfolio to showcase myself.',
+            repositoryUrl: 'https://github.com/Hugos68/portfoliov2',
+            websiteUrl: 'https://hugokorte.vercel.app/', 
+            imageUrl: 'https://cdn.discordapp.com/attachments/465110736872669195/1117236476565016597/image.png',
             technologies: ['SvelteKit', 'Skeleton', 'Tailwind', 'Supabase']
         },
         {
@@ -47,7 +55,7 @@
 </script>
 
 
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('green-wave-bottom.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/green-wave-bottom.svg')] bg-cover bg-center">
     <h1 id="hugokorte" class="text-[clamp(2rem,16vw,4rem)] leading-[3] text-center">
         Hugo Korte
     </h1>
@@ -55,15 +63,15 @@
         <p class="text-[clamp(1.5rem,8vw,2rem)] text-dark-token text-center" in:scale|local={{ delay: 200 }} out:fly|local={{ y: 200, duration: 200 }}>{undertitle}</p>
     {/key}
 </section>
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('green-wave-top.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/green-wave-top.svg')] bg-cover bg-center">
     <h2 id="about" class="text-[clamp(2rem,16vw,4rem)] leading-[3]">
         About
     </h2>
 </section>
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('blue-wave-bottom.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/blue-wave-bottom.svg')] bg-cover bg-center">
 
 </section>  
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('blue-wave-top.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/blue-wave-top.svg')] bg-cover bg-center">
     <h2 id="work" class="text-[clamp(2rem,16vw,4rem)] leading-[3]">
         Work
     </h2>
@@ -91,14 +99,14 @@
         {/each}
     </ul>
 </section>
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('pink-wave-bottom.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/pink-wave-bottom.svg')] bg-cover bg-center">
 
 </section>
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('pink-wave-top.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/pink-wave-top.svg')] bg-cover bg-center">
     <h2 id="competence" class="text-[clamp(2rem,16vw,4rem)] leading-[3]">
         Competence
     </h2>
 </section>
-<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('green-wave-footer.svg')] bg-cover bg-center">
+<section class="w-screen h-screen pt-[20vh] px-[2vw] lg:px-[10vw] bg-[url('/green-wave-footer.svg')] bg-cover bg-center">
     
 </section>
